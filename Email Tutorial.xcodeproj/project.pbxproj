@@ -21,6 +21,7 @@
 		02390A07195E7C7000AB345C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 023909E9195E7C7000AB345C /* UIKit.framework */; };
 		02390A0F195E7C7000AB345C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02390A0D195E7C7000AB345C /* InfoPlist.strings */; };
 		02390A11195E7C7000AB345C /* Email_TutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02390A10195E7C7000AB345C /* Email_TutorialTests.m */; };
+		02390A1B195E7CFD00AB345C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02390A1A195E7CFD00AB345C /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		02390A0C195E7C7000AB345C /* Email TutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Email TutorialTests-Info.plist"; sourceTree = "<group>"; };
 		02390A0E195E7C7000AB345C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		02390A10195E7C7000AB345C /* Email_TutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Email_TutorialTests.m; sourceTree = "<group>"; };
+		02390A1A195E7CFD00AB345C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02390A1B195E7CFD00AB345C /* MessageUI.framework in Frameworks */,
 				023909E8195E7C7000AB345C /* CoreGraphics.framework in Frameworks */,
 				023909EA195E7C7000AB345C /* UIKit.framework in Frameworks */,
 				023909E6195E7C7000AB345C /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		023909E4195E7C7000AB345C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				02390A1A195E7CFD00AB345C /* MessageUI.framework */,
 				023909E5195E7C7000AB345C /* Foundation.framework */,
 				023909E7195E7C7000AB345C /* CoreGraphics.framework */,
 				023909E9195E7C7000AB345C /* UIKit.framework */,
@@ -112,8 +116,6 @@
 		023909EB195E7C7000AB345C /* Email Tutorial */ = {
 			isa = PBXGroup;
 			children = (
-				023909F4195E7C7000AB345C /* CEBAppDelegate.h */,
-				023909F5195E7C7000AB345C /* CEBAppDelegate.m */,
 				023909F7195E7C7000AB345C /* Main.storyboard */,
 				023909FA195E7C7000AB345C /* CEBViewController.h */,
 				023909FB195E7C7000AB345C /* CEBViewController.m */,
@@ -126,6 +128,8 @@
 		023909EC195E7C7000AB345C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				023909F4195E7C7000AB345C /* CEBAppDelegate.h */,
+				023909F5195E7C7000AB345C /* CEBAppDelegate.m */,
 				023909ED195E7C7000AB345C /* Email Tutorial-Info.plist */,
 				023909EE195E7C7000AB345C /* InfoPlist.strings */,
 				023909F1195E7C7000AB345C /* main.m */,
